@@ -9,14 +9,14 @@ export default function Home() {
   
   if(!isAuthenticated) return <Login />;
   return (
-    <div className="h-screen">
+    <div className="">
       <Head>
         <title>Metaverse Challenge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
     <LoadingScreen />
-    <button onClick={logout}>Logout</button>
+    {/* <button onClick={logout}>Logout</button> */}
     </div>
   )
 }
