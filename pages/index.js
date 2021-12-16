@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Login from '../components/Login'
 import { useMoralis } from "react-moralis";
+import LoadingScreen from '../components/LoadingScreen';
 
 export default function Home() {
   const { isAuthenticated, logout } = useMoralis();
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-    <h1>Welcome to the App</h1>
+    <LoadingScreen />
     <button onClick={logout}>Logout</button>
     </div>
   )
