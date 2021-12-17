@@ -1,5 +1,5 @@
 module.exports = {
     images:{
-        domains:['avatars.dicebear.com', "links.papareact.com","cdn.discordapp.com"],
+        domains:["avatars.dicebear.com", "links.papareact.com","cdn.discordapp.com"],
     }
 }
