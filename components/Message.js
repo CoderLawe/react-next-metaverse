@@ -17,7 +17,7 @@ function Message({message}) {
                 <Avatar username ={message.get("username")}/>
             </div>
             <div className={`flex space-x-4 p-3 rounded-lg ${
-                isUserMessage ? "rounded-br-none bg-gradient-to-r from-blue-900 to-black text-white border-2 border-white bg-opacity-75 font-serif": "rounded-br-none bg-gradient-to-r from-blue-900 to-black text-white border-2 border-white bg-opacity-75 font-serif"
+                isUserMessage ? "rounded-br-none bg-gradient-to-r from-blue-900 to-black text-white border-2 border-white bg-opacity-75 font-serif": "rounded-br-none bg-gradient-to-r from-fuchsia-900 to-black text-white border-2 border-white bg-opacity-75 font-serif"
             }`}>
                 <p>{message.get("message")}</p>
             </div>
