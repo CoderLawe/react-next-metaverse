@@ -27,7 +27,7 @@ function Messages() {
                 <ByMoralis  variant="dark" style={{ marginLeft:"auto",  marginRight:"auto"}}/>
             </div>
 
-            <div className="space-y-10 py-4 px-8">
+            <div className="space-y-10 py-4 px-24">
                 {/* Render each message */}
                 {data.map(message => (
                     <Message key={message.id} message={message} />

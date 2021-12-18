@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useMoralis } from "react-moralis"
-
+import { MailOpenIcon } from "@heroicons/react/solid"
 function SendMessage({ endOfMessagesRef }) {
     const { user, Moralis } = useMoralis()
     const [message, setMessage] = useState('')
@@ -28,12 +28,13 @@ function SendMessage({ endOfMessagesRef }) {
         setMessage('');
     }    
     return (
-        <form className="flex fixed bottom-10 bg-black opacity-80 w-11/12 px-6 py-4 max-w-2xl shadow-xl rounded-full border-4 border-blue-400">
-            <input className="flex-grow outline-none bg-transparent text-white placeholder-gray-500 pr-5" placeholder={`Enter a Message ${user.getUsername()}`} value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            type="text"/>
-            <button onClick={sendMessage} type="submit" className="font-bold text-pink-500">Send</button>
-        </form>
+            <form className="flex justify-center  rounded-lg fixed bottom-10 bg-black opacity-80 w-11/12 px-6 py-4 max-w-2xl shadow-xl border-2 border-transparent hover:border-green-700 transform transition-all duration-500 ease-out">
+                <input className="flex-grow outline-none bg-transparent text-white placeholder-gray-500 pr-5" placeholder={`Enter a Message ${user.getUsername()}`} value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                type="text"/>
+
+                <MailOpenIcon className="h-8 cursor-pointer hover:text-fuchsia-900 text-blue-500"onClick={sendMessage}  />
+            </form>
     )
 }
 
