@@ -24,7 +24,7 @@ function Message({message}) {
             {/* Timeago stamp */}
             <TimeAgo  
 
-            className={`text-[10px] italic text-gray-400 ${ isUserMessage && "order-first pr-1"}`}
+            className={`text-[10px] italic text-gray-400 `}
             datetime={message.createdAt}/>
             <p className={`absolute -mb-5 text-xs ${isUserMessage ? "text-pink-300": "text-blue-400"}`}>{message.get("username")}</p>
         </div>

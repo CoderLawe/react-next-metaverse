@@ -106,7 +106,7 @@ function Login() {
         <div className="w-full h-screen">
             {/* Login Form */}
             
-            <Image objectFit="cover" src="https://cdn.discordapp.com/attachments/817048198022430761/921834472767385611/cubes-2492010.jpg" layout="fill" className="-z-0 bg"/>
+            <Image objectFit="cover" src="https://cdn.discordapp.com/attachments/817048198022430761/921840978397126757/wp9928080-metaverse-wallpapers.png" layout="fill" className="-z-0 bg"/>
 
             </div>
     </div>

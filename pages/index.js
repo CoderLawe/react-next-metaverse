@@ -58,7 +58,7 @@ export default function Home() {
 
         {/* Messages */}
 
-        <Image objectFit="cover" src="https://cdn.discordapp.com/attachments/817048198022430761/921834472767385611/cubes-2492010.jpg" layout="fill" className="-z-0 bg"/>
+        <Image objectFit="cover" src="https://cdn.discordapp.com/attachments/817048198022430761/921840978397126757/wp9928080-metaverse-wallpapers.png" layout="fill" className="-z-0 bg"/>
 
 
         <Messages />
@@ -76,7 +76,7 @@ export default function Home() {
        >
          <Box 
          sx={style}
-         className="bg-gray-700  bg-opacity-80 focus:outline-none pb-32"
+         className="bg-gradient-to-r from-blue-500 to-black  bg-opacity-90 focus:outline-none pb-32"
          >
           <div className="block">
             <div className="flex justify-center">
