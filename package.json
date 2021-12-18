@@ -6,6 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.4",
+    "@react-spring/web": "^9.3.1",
     "@walletconnect/web3-provider": "^1.7.0",
     "aos": "^2.3.4",
     "moralis": "0.0.165",

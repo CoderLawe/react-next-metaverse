@@ -4,8 +4,9 @@ import Message from "./Message";
 import SendMessage from "./SendMessage";
 // Only showing messages from the last 15 minutes
 
-const MINS_DURATION  = 15
+const MINS_DURATION  = 60
 function Messages() {
+
 
     const { user } = useMoralis();
     const endOfMessagesRef = useRef(null);
