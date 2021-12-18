@@ -58,7 +58,7 @@ export default function Home() {
 
         {/* Messages */}
 
-        <Image objectFit="cover" src="https://cdn.discordapp.com/attachments/817048198022430761/921834548441002034/pexels-tara-winstead-8849287.jpg" layout="fill" className="-z-0 bg"/>
+        <Image objectFit="cover" src="https://cdn.discordapp.com/attachments/817048198022430761/921834472767385611/cubes-2492010.jpg" layout="fill" className="-z-0 bg"/>
 
 
         <Messages />
