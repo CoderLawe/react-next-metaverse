@@ -53,7 +53,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className="max-w-screen  mx-10">
+      <div className="max-w-screen mx-5 md:mx-10">
         <Header />
 
         {/* Messages */}
@@ -68,6 +68,7 @@ export default function Home() {
       <div>
         
 
+    
        <Modal 
        open={clicked}
        onClose={handleClose}
