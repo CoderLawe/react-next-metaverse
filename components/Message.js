@@ -26,7 +26,7 @@ function Message({message}) {
 
             className={`text-[10px] italic text-gray-400 `}
             datetime={message.createdAt}/>
-            <p className={`absolute -mb-5 text-sm ${isUserMessage ? "text-green-900": "text-blue-400"}`}>{message.get("username")}</p>
+            <p className={`absolute -mb-5  ${isUserMessage ? "text-green-500  font-semibold font-serif": "text-white  font-serif"}`}>{message.get("username")}</p>
         </div>
     )
 }
